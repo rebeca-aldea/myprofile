@@ -1,0 +1,151 @@
+body{
+  background: #EDEDED;
+  color: #7F7C82;
+  font-weight: 100;
+  font-family: 'Mukta', sans-serif;
+  font-size: 20px;
+
+}
+
+
+
+h1 {
+    color: #6C4A4A;
+    font-weight: 20000;
+    letter-spacing: 10px;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: 'Poiret One';
+
+}
+
+h2 {
+  color: #6C4A4A;
+  font-weight: 20000;
+  letter-spacing: 10px;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: 'Poiret One';
+  }
+
+a{
+  text-decoration: none;
+  color: #EDEDED;
+  transition: color 0.3s ease;
+  font-size: 22px;
+  font-family: 'Poiret One';
+  text-transform: uppercase;
+  font-weight: 20000;
+
+}
+
+a:hover{
+  color: #EDEDED;
+}
+
+/*Custom design with class*/
+
+.container{
+  text-align: center;
+  width:  1200px;
+  margin: 40px auto;
+  padding: 30px;
+}
+
+.profilepic-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 180px;
+}
+
+.pics-align {
+  height=341
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 250px;
+}
+
+
+.card-white{
+  padding: 50px;
+  background: white;
+  box-shadow: 0px 10px 30px rgba(0, 10, 30, 0.1);
+  margin: 20px 0px;
+}
+
+.btn-pink{
+  background-color: #6C4A4A;
+  color: #EDEDED;
+  padding: 15px 20px;
+  border-radius: 4px;
+
+}
+
+.btn-pink:hover {
+  background-color: #EDEDED;
+  color: #6C4A4A;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  color: #6C4A4A ;
+}
+
+.list-inline i:hover {
+  font-size: 50px;
+  color: #EDEDED;
+}
+
+/*Custom design with id*/
+
+#introduction {
+  background: #DDBEBE;
+  box-shadow: 0px 10px 30px rgba(0, 10, 30, 0.1);
+}
+
+#introduction p {
+  margin-bottom: 50px;
+  padding: 50px;
+  color: #6C4A4A
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
+
