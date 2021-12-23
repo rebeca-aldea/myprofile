@@ -59,6 +59,14 @@ a:hover{
   width: 180px;
 }
 
+.profilepic-center{
+  transition:  transform .5s;
+}
+
+.profilepic-center:hover{
+  transform: scale(1.2);
+}
+
 .pics-align {
   height=341
   display: block;
